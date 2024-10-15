@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>welcome</h2>
+    <h3 id="show"></h3>
+   
+    <center>
+        <h1>IMAGE MAP</h1>
+        
+
+        <img src="desktop.jpeg" alt="Desktop" usemap="#desktop">
+    </center>
+    <map name="desktop">
+        <area shape="rect" coords="144,132,384,271" href="moniter.html" alt="MONITER">
+        <area shape="rect" coords="403,64,514,311" href="cpu.html" alt="CPU">
+        <area shape="rect" coords="155,345,392,405" href="keyboard.html" alt="keyboard">
+        <area shape="rect" coords="533,273,567,332" href="speaker.html" alt="speaker">
+        <area shape="rect" coords="101,276,132,327" href="speaker.html" alt="speaker">
+        <area shape="poly"
+            coords="419,399,424,345,417,396,439,419,437,419,466,394,463,398,463,343,462,346,440,329,442,330,422,346"
+            href="mouse.html" alt="mouse">
+    </map>
+
+</body>
+<style>
+    h2{
+        display: inline;
+    }
+
+
+img{
+    
+    margin-top: 40px;
+    border-radius: 20px;
+}
+h1{
+
+    word-spacing: 15px;
+    letter-spacing: 2px;
+    -webkit-text-stroke: 1px orangered;
+    font-family: Tahoma;
+
+}
+h1::first-letter{
+    font-size: 50px;
+
+    color: blue;
+}
+
+</style>
+<script src="script.js"></script>
+
+</html>
